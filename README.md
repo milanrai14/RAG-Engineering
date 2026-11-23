@@ -1,65 +1,113 @@
 # RAG Engineering 🚀
 
-Welcome to **RAG Engineering**!
+Welcome to my **RAG Engineering Learning Repository**!
 
-This repository documents my learning journey into **Retrieval-Augmented Generation (RAG)**. I am currently exploring the fundamentals, understanding the underlying concepts, and implementing practical examples using Python and modern AI tools.
+This repository documents my practical learning journey in Retrieval-Augmented Generation (RAG), with a current focus on **Self-RAG (Self-Reflective RAG)** and **Corrective RAG (CRAG)**.
 
-The goal is to build a strong foundation in RAG and gradually explore more advanced techniques through hands-on practice.
+The objective is to understand how retrieval systems evaluate retrieved documents, improve retrieval quality, correct irrelevant information, and generate more reliable LLM responses.
 
-## 🛠️ Technologies & Tools
+The implementations use Python, LangChain, LangGraph, Ollama, and ChromaDB.
 
-- Python
-- LangChain
-- LangGraph
-- Ollama
-- ChromaDB
-- FAISS
-- Hugging Face
-- Jupyter Notebook
+## 📚 Topics Covered
 
-## 📚 What I'm Learning
+### 1. RAG Fundamentals
+- Introduction to Retrieval-Augmented Generation
+- RAG Architecture
+- Document Loaders
+- Text Splitting
+- Embedding Models
+- Vector Stores
+- Similarity Search
+- Cosine Similarity
+- Retrievers
+- Context-Based Question Answering
 
-- [ ] Introduction to Retrieval-Augmented Generation
-- [ ] RAG Architecture and Workflow
-- [ ] Document Loading (PDF, TXT, etc.)
-- [ ] Text Splitting and Chunking
-- [ ] Embeddings and Vector Representations
-- [ ] Vector Databases
-- [ ] Semantic Search and Retrieval
-- [ ] Building Basic RAG Pipelines
+### 2. Self-RAG (Self-Reflective RAG)
 
-*This roadmap will be updated as I progress through my learning journey.*
+Self-RAG improves response quality by allowing the system to evaluate when retrieval is necessary and assess the relevance and reliability of retrieved information and generated answers.
 
-## 📁 Repository Structure
+Topics:
+- Self-RAG Architecture
+- Retrieval Decision
+- Document Relevance Evaluation
+- Retrieval Grading
+- Generation Evaluation
+- Hallucination Detection
+- Self-Reflection
+- Reflection-Based Decision Making
+- Conditional Retrieval
+- Answer Quality Evaluation
 
-```text
-RAG-Engineering/
-│
-├── 01_Fundamentals/
-├── 02_Document_Loading/
-├── 03_Text_Splitting/
-├── 04_Embeddings/
-├── 05_Vector_Databases/
-├── 06_Retrieval/
-│
-├── requirements.txt
-└── README.md
-```
+### 3. Corrective RAG (CRAG)
 
-## 🎯 Objective
+Corrective RAG evaluates retrieved documents and takes corrective actions when the retrieved information is insufficient or irrelevant.
 
-To understand how RAG systems work, learn the technologies behind them, and gain practical experience by implementing concepts step by step.
+Topics:
+- CRAG Architecture
+- Retrieval Evaluator
+- Document Relevance Scoring
+- Correct Retrieval
+- Incorrect Retrieval
+- Ambiguous Retrieval
+- Knowledge Refinement
+- Knowledge Correction
+- Query Rewriting
+- Web Search Integration
+- Conditional Routing
+- Corrective Retrieval Workflow
 
-## 📌 Current Status
+### 4. Retrieval Evaluation
+- Document Relevance Scoring
+- Retrieval Quality Assessment
+- Relevant vs Irrelevant Documents
+- Context Evaluation
+- Answer Evaluation
+- Conditional Decision Making
 
-**Learning Phase — In Progress 🚧**
+## 🛠️ Technologies & Libraries
 
-This repository is actively being developed as I learn and experiment with RAG concepts.
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| LangChain | RAG application development |
+| LangGraph | Stateful RAG workflows |
+| Ollama | Local LLM execution |
+| ChromaDB | Vector database |
+| Hugging Face | Embedding models |
+| Pydantic | Structured output validation |
+| LangSmith | Tracing and debugging |
+| Pytest | Testing |
 
-## 🔗 Connect
 
-- GitHub: [milanrai14](https://github.com/milanrai14)
+## 🎯 Learning Objectives
+
+- Understand the RAG architecture and retrieval pipeline.
+- Implement Self-RAG using LangGraph.
+- Understand retrieval decisions and self-reflection.
+- Build CRAG with retrieval evaluation.
+- Implement document relevance scoring.
+- Understand correct, incorrect, and ambiguous retrieval.
+- Implement knowledge refinement and query rewriting.
+- Integrate web search for corrective retrieval.
+- Build conditional RAG workflows.
+- Experiment with local LLMs and embedding models.
+
+## 📈 Learning Progress
+
+This repository is actively evolving as I learn and implement RAG concepts.
+
+Currently, my focus is on understanding and implementing Self-RAG and Corrective RAG (CRAG), with additional RAG architectures planned for future exploration.
+
+## 👨‍💻 Author
+
+**Milan Rai**
+
+BSc (Hons) Computing Student | AI Engineer Learner
+
+GitHub: https://github.com/milanrai14
 
 ---
 
-⭐ More concepts, experiments, and implementations will be added as I continue learning!
+⭐ Feel free to explore and star this repository!
+
+**Understanding Retrieval. Improving Generation. Engineering Better RAG Systems.**
