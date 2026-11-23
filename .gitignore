@@ -1,2 +1,24 @@
 documents/
 .env/
+# Environment variables
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB
+vector-database/
+chroma_db/
+
+# Other
+.DS_Store
